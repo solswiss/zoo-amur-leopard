@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Comic+Relief:wght@400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --breakpoint-xl: 830px;
+    --breakpoint-xs: 450px;
+}
+
+:root {
+    --ctheme: hsl(120, 38.3%, 18.43%);
+    --catheme: hsla(120, 38.3%, 18.43%, 0.7);
+    --cmain: hsl(42, 60%, 60%);
+    --camain: hsla(42, 50%, 60%, 0.7);
+    --ccontrast: #fff;
+    --cneutral: #dfe3df;
+    --cbg: #fff;
+    --crit: hsl(10, 70%, 50%);
+    --critacc: hsl(50, 70%, 70%);
+}
+
+html {
+    font-size: 10px;
+    background-color: var(--cbg);
+}
+
+body {
+    font-size: 1.2rem;
+    padding-top: 65px;
+    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.public-sans-italic {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
+.public-sans-bold {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+}
+
+.public-sans {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bokor-regular {
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: double underline;
+}
+
+a:visited {
+    color: var(--camain);
+}
+
+.main-wrapper {
+    margin-bottom: 10vh;
+}
+
+.critical {
+    color: var(--crit);
+    text-shadow: 0 0 0.5rem var(--critacc);
+    animation: 4000ms crit-gradation infinite alternate;
+    transition: letter-spacing 400ms ease-out;
+}
+.critical:hover {
+    letter-spacing: -0.4rem;
+    animation-duration: 400ms;
+}
+
+#title {
+    font-size: 5rem;
+    font-family: 'Bokor', 'Franklin Gothic Medium', 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 2px var(--catheme);
+    transition: 400ms ease;
+    opacity: 40%;
+    width: fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+#title:hover {
+    color: var(--cneutral);
+    opacity: 100%;
+}
+
+#banner-img {
+    filter: brightness(1.2) saturate(1.1);
+}
+
+.grid-stack {
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.grid-stack > * {
+    grid-area: "stack";
+}
+
+.mask-grad-down {
+    mask: linear-gradient(to bottom, #000 50%, transparent 100%);
+}
+
+#fact-desc {
+    max-width: 75ch;
+    overflow-y: auto;
+}
+
+#fact-icon {
+    transition: 100ms linear;
+}
+
+#fact-icon img {
+    max-height: 100%;
+}
+
+.facts-button {
+    height: 3rem;
+    min-width: 5rem;
+    background-color: hsla(0,0%,0%,0);
+    border: 2px solid var(--cmain);
+    color: var(--cmain);
+    border-radius: 2rem;
+    transition: 200ms linear;
+}
+
+.facts-button:hover {
+    color: var(--ccontrast);
+    background-color: var(--catheme);
+    border: 2px solid var(--ctheme);
+}
+
+#fact-counter {
+    height: 3rem;
+    font-size: 1.7rem;
+    min-width: 4.7rem;
+    background-color: var(--cneutral);
+    border: 2px solid var(--cneutral);
+    border-radius: 1.5rem;
+}
+
+#footer {
+    border-top: 2px solid var(--ctheme);
+}
+
+#footer div.title {
+    color: var(--ctheme);
+}
+
+#facts-carousel {
+    min-height: 650px;
+    height: min(100vw, 800px);
+    max-height: 800px;
+}
+
+#back {
+    position: absolute;
+    top: calc(65px + 1em);
+    left: 1em;
+}
+#back a:visited {
+    color: inherit;
+}
+
+@keyframes crit-gradation {
+    from {
+        color: var(--crit);
+    }
+    to {
+        color: var(--critacc);
+    }
+}
+
+@media screen and (min-width: 450px) {
+    body {
+        font-size: 1.6rem;
+    }
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    #title {
+        font-size: 8rem;
+    }
+    #fact-container {
+        min-height: 600px;
+    }
+    .facts-button {
+        height: 4rem;
+        min-width: 7rem;
+        background-color: hsla(0,0%,0%,0);
+        border: 2px solid var(--ctheme);
+        color: var(--ctheme);
+        border-radius: 2rem;
+        transition: 200ms linear;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    #title {
+        font-size: 12rem;
+    }
+    #facts-carousel {
+        min-height: 80vh;
+    }
+    #fact-container {
+        min-height: min-content;
+        height: 90%;
+        max-height: 90%;
+    }
+    #fact-icon {
+        height: 50%;
+        font-size: 15rem;
+    }
+    #footer {
+        padding: 30px 50px 100px 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #title {
+        font-size: 15rem;
+    }
+    #facts-carousel {
+        min-height: 650px;
+        height: 75vh;
+        max-height: 700px;
+    }
+    #fact-container {
+        min-height: min-content;
+        height: 90%;
+        max-height: 90%;
+    }
+    #footer {
+        padding: 40px 20vw 100px 20vw;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #title {
+        font-size: 20rem;
+    }
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "title":"Name",
+        "description":"The Amur leopard (<em>Panthera pardus orientalis</em>) is named after the Amur River which flows along the border of Russia and China where their population is most concentrated. Its common names include Far East leopard, Manchurian leopard, and Korean leopard.",
+        "icon":"<i class='fa-solid fa-language'></i>"
+    },
+    {
+        "title":"Region",
+        "description":"The leopards are native to the temperate forests of a small, fragmented range along the shared border of southeastern Russia and northern China. Their current range includes the Primorsky Krai (<span lang='ru'>Приморский край</span>) region of Russia and the Jilin (<span lang='cn'>吉林省</span>) and Heilongjiang (<span lang='cn'>黑龙江</span>) provinces of China. Today, the Amur leopard is considered locally extinct in South Korea although some sightings have been reported in North Korea.",
+        "icon":"<img src='https://conbio.onlinelibrary.wiley.com/cms/asset/a498c97d-6d94-4929-b07e-3dceda722022/conl12574-fig-0001-m.jpg' alt='map of Amur leopard habitat'>"
+    },
+    {
+        "title":"<a href='/critical'>Status</a>",
+        "description":"The Amur leopard is classified as Critically Endangered with an estimated population of around 100 and confirmed minimum of 84 in the wild.  According the the International Fund for Animal Welfare, there are around 220 captive Amur leopards across 88 institutions.",
+        "icon":"<img src='https://www.iucnssg.org/uploads/5/4/1/2/54120303/iucn-red-list-cr_orig.png' alt='critically endangered symbol'>"
+    },
+    {
+        "title":"Biology",
+        "description":"The Amur leopard has a distinctive pale cream-colored (snow camouflage) fur coat with unbroken rings and darkened centers for rosettes. The winter coat varies from light yellow to yellowish-red and the fur can grow up to 7.5 cm in length. In the summer, the fur colors become more vivid. These leopards are rather small but have longer legs and wider paws to efficiently walk through snow. Amur leopards average 2 or 3 cubs once every 15 to 24 months.",
+        "icon":"<img src='https://files.worldwildlife.org/wwfcmsprod/images/Amur_Leopard_/story_full_width/9g51xqtsf1_amur_leopard_99144569.jpg' alt='Amur leopard resting'>"
+    },
+    {
+        "title":"Characteristics",
+        "description":"The Amur leopard has a lifespan of 10-15 years in the wild and up to 20 in captivity. Like other leopards, Amur leopards are nimble-footed solitary hunters and can run at speeds of up to 37 mph and leap over 19 ft horizontally and up to 10 ft vertically. Their territory sizes can be between 19 and 116 sqmi (5k and 30k ha) and usually cover a river basin and populous areas. Individuals use the same hunting trails, migration routes, and rest places throughout their lives and tend to follow herds of ungulates.",
+        "icon":"<i class='fa-solid fa-binoculars'></i>"
+    },
+    {
+        "title":"Diet",
+        "description":"Amur leopards are strict carnivores and hunt anything from deer to hares and even very small prey such as squirrels or rodents when hungry. Their regular diet is composed of deer&mdash;Silka deer, roe deer, Manchurian wapiti&mdash; and local animals like wild boar, badgers, and raccoon dogs. Although Amur leopards are diurnal (active during the day) and crepuscular (active during dawn and dusk) behaviors line up with the activity periods of prey species, these opportunistic hunters generally hunt through ambush at night when prey is less vigilant. They then carry and cache unfinished kills to protect it from lurking competitors or scavengers.",
+        "icon":"<i class='fa-solid fa-drumstick-bite'></i>"
+    }
+    
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "name":"sleepy",
+        "description":"getting sleepy",
+        "icon":"<i class='fa-solid fa-moon'></i>",
+        "vis":1,
+        "move":"false",
+        "sound":""
+    },
+    {
+        "name":"hungry",
+        "description":"getting hungry",
+        "icon":"<i class='fa-solid fa-utensils'></i>",
+        "vis":0,
+        "move":"false",
+        "sound":""
+    },
+    {
+        "name":"friendly",
+        "description":"feeling amicable",
+        "icon":"<i class='fa-solid fa-face-laugh-beam'></i>",
+        "vis":0,
+        "move":"false",
+        "sound":""
+    },
+    {
+        "name":"relaxed",
+        "description":"busy relaxing",
+        "icon":"<i class='fa-solid fa-face-smile-beam'></i>",
+        "vis":1,
+        "move":"false",
+        "sound":""
+    },
+    {
+        "name":"content",
+        "description":"feeling content",
+        "icon":"<i class='fa-solid fa-face-smile'></i>",
+        "vis":1,
+        "move":"false",
+        "sound":""
+    },
+    {
+        "name":"playful",
+        "description":"wants to play",
+        "icon":"<i class='fa-solid fa-face-laugh-squint'></i>",
+        "vis":0,
+        "move":"false",
+        "sound":""
+    },
+    {
+        "name":"irritated",
+        "description":"not happy, angy",
+        "icon":"<i class='fa-solid fa-face-angry'></i>",
+        "vis":0,
+        "move":"false",
+        "sound":""
+    }
+]
