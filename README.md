@@ -1,8 +1,9 @@
 # Description
-Static website made with Svelte dedicated to the critically endangered leopard subspecies Amur leopard. Made for Zoo of Hackclub!
+Static fully responsive (though it doesn't look the best with *every* dimension) website made with Sveltekit dedicated to the critically endangered leopard subspecies Amur leopard.  
+Made for Zoo of Hackclub!
 
 # Interactive Elements
-## /
+## Main
 ### facts carousel (facts panel)
 just followed the tutorial in slack. main research sources are listed in the footer.
 ### easter egg
